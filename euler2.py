@@ -6,4 +6,4 @@ def fib(x):
 		summ += (f2 if f2 % 2 == 0 else 0)
 	return summ
 
-print(fib(int(4 * 1e6)))
+print(fib(int(4e6)))
